@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{b65628fd-5540-4c5e-b754-1d829a0cb426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{73768ddc-7ece-462d-9476-ea1a85ed17f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\SystemClass">
+      <UniqueIdentifier>{2785fb85-e629-42ee-aeb7-7162b66e9bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic">
+      <UniqueIdentifier>{fc555328-91d5-42fe-b1a6-96084730a81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Scene">
+      <UniqueIdentifier>{33e7e343-10d4-441e-8054-d5789a0c5008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Object">
+      <UniqueIdentifier>{6028947b-2328-4d3b-b63b-8d675af557ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Object\Test">
+      <UniqueIdentifier>{fba10bc9-144d-4018-a607-ab5a8df59a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Object\MyCharacter">
+      <UniqueIdentifier>{b0e310a6-5fb0-46c7-a1fb-a3c6b8bce841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Object\Blocks">
+      <UniqueIdentifier>{c145b393-b247-481d-aad3-cecb70f910bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Effect">
+      <UniqueIdentifier>{e7afc4eb-cfec-4456-8c63-11d400a71e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\MapData">
+      <UniqueIdentifier>{729533dd-5dd2-4636-8e32-345ae9ed3492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Class">
+      <UniqueIdentifier>{44e0e628-cdda-4601-be8b-18384d202a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Class\Scenes">
+      <UniqueIdentifier>{8bc09467-3b58-4bfd-b510-ff099c7295eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Class\Objects">
+      <UniqueIdentifier>{1af121bc-2ea5-4570-b907-f0f4cf82221c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Class\Components">
+      <UniqueIdentifier>{4178a41f-75b6-46c3-80c7-02252f74b668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Class\Event">
+      <UniqueIdentifier>{84f8eac7-f0ae-4f7b-9380-187b496f45e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic2">
+      <UniqueIdentifier>{ebaeaebd-f640-4814-b33c-e3ec4f844557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic2\Scene">
+      <UniqueIdentifier>{35d11c53-a6b5-49f4-b4f1-627702d5855b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic2\Object">
+      <UniqueIdentifier>{985cb56f-6dbd-4544-8d0c-41a22c5151ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic2\ShootSystem">
+      <UniqueIdentifier>{56414dad-8a88-464e-b6aa-fd46614f744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic2\Object\Enemy">
+      <UniqueIdentifier>{338e1672-4897-4685-b641-d18f55582fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic2\Event">
+      <UniqueIdentifier>{19845b0d-040a-4800-ad76-71e22b137585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="MapData\1.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+    <Text Include="MapData\2.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+    <Text Include="MapData\3.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+    <Text Include="MapData\맵 작성법.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+    <Text Include="MapData\4.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+    <Text Include="MapData\6.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+    <Text Include="MapData\5.txt">
+      <Filter>GameLogic\MapData</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClass.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DClass.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneClass.h">
+      <Filter>Framework\Class\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Framework\Class\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDefine.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentHub.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Framework\Class\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenResizeEvent.h">
+      <Filter>Framework\Class\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameAnimation.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapTable.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRock.h">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TestButton.h">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RectRender.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleRender.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTestScene.h">
+      <Filter>GameLogic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCharacter.h">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionAnimation.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEvent.h">
+      <Filter>Framework\Class\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCharacter.h">
+      <Filter>GameLogic\Object\MyCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageEvent.h">
+      <Filter>Framework\Class\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeAnimation.h">
+      <Filter>Framework\Class\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RectRotateEffect.h">
+      <Filter>GameLogic\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionEffect.h">
+      <Filter>GameLogic\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PotalEffect.h">
+      <Filter>GameLogic\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEffect.h">
+      <Filter>GameLogic\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>GameLogic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework\Class\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>GameLogic\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>GameLogic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PotalBlock.h">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="DestBlock.h">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="DieBlock.h">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="WallBlock.h">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="StageButton.h">
+      <Filter>GameLogic\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTarget.h">
+      <Filter>GameLogic\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCreator.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelector.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearSelectButton.h">
+      <Filter>GameLogic\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAbleBlock.h">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundParticle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>GameLogic2\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBackground.h">
+      <Filter>GameLogic2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootPoint.h">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootInterface.h">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GunSystem.h">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GunInterface.h">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBullet.h">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultGun.h">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWood.h">
+      <Filter>GameLogic2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>GameLogic2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyInterface.h">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackEvent.h">
+      <Filter>GameLogic2\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySystem.h">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRestartBtn.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DClass.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneClass.cpp">
+      <Filter>Framework\Class\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Framework\Class\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentHub.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Framework\Class\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenResizeEvent.cpp">
+      <Filter>Framework\Class\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameAnimation.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapTable.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRock.cpp">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TestButton.cpp">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RectRender.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleRender.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTestScene.cpp">
+      <Filter>GameLogic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCharacter.cpp">
+      <Filter>Framework\Class\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionAnimation.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEvent.cpp">
+      <Filter>Framework\Class\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Framework\Core\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCharacter.cpp">
+      <Filter>GameLogic\Object\MyCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageEvent.cpp">
+      <Filter>Framework\Class\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeAnimation.cpp">
+      <Filter>Framework\Class\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RectRotateEffect.cpp">
+      <Filter>GameLogic\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionEffect.cpp">
+      <Filter>GameLogic\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="PotalEffect.cpp">
+      <Filter>GameLogic\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleEffect.cpp">
+      <Filter>GameLogic\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>GameLogic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework\Class\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>GameLogic\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>GameLogic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DestBlock.cpp">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="DieBlock.cpp">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="PotalBlock.cpp">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="WallBlock.cpp">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="StageButton.cpp">
+      <Filter>GameLogic\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTarget.cpp">
+      <Filter>GameLogic\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCreator.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelector.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearSelectButton.cpp">
+      <Filter>GameLogic\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAbleBlock.cpp">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>GameLogic\Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundParticle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>GameLogic2\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBackground.cpp">
+      <Filter>GameLogic2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootPoint.cpp">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GunSystem.cpp">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBullet.cpp">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultGun.cpp">
+      <Filter>GameLogic2\ShootSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>GameLogic2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWood.cpp">
+      <Filter>GameLogic2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackEvent.cpp">
+      <Filter>GameLogic2\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySystem.cpp">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>GameLogic2\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRestartBtn.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefenseGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DefenseGame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
